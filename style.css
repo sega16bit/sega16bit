@@ -1,0 +1,163 @@
+body {
+    font-family: "Roboto";
+    margin: 0;
+    background-color: #F6E5E5;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 56px;
+    margin-bottom: 24px;
+    font-weight: 500;
+}
+
+header {
+    background-color: #C3D8FF;
+    height: 80px;
+    
+    
+}
+.container{
+    margin: 0 auto;
+    width: 1280px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+
+li {
+    padding: 0 32px 0 0;
+    font-size: 18px;
+}
+
+main {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+
+h2 {
+    font-size: 24px;
+    padding-top: 19px;
+    color: #202020;
+}
+
+h3 {
+    font-size: 24px;
+    padding-top: 19px;
+    color: #202020;
+}
+
+h4 {
+    font-size: 24px;
+    padding-top: 19px;
+    color: #202020;
+}
+
+article:nth-child(odd) {
+    width: 580px;
+    background: lightblue;
+    margin-bottom: 52px;
+}
+
+article:nth-child(2n) {
+    width: 580px;
+    background: #E5E5E5;
+    margin-bottom: 52px;
+}
+
+p {
+    font-size: 18px;
+    color: #000000;
+    line-height: 21px;
+
+    margin-top: 12px;
+    margin-bottom: 18px;
+}
+p + a:hover {
+    text-decoration: none;
+     color: red;
+}
+
+a {
+   font-size: 18px; 
+}
+
+footer {
+    text-align: center;
+    background-color: #C3D8FF;
+    margin-top: 56px;
+   
+
+
+}
+.site-name {
+    text-align: left;
+    font-size: 36px;
+    padding-right:108px ;
+    margin:0 auto;
+}
+
+.blockactive a{
+    color: red;
+}
+.navblock1:hover {
+    color: red;
+     
+}
+.block a{
+    text-decoration: none;
+}
+.site-name,
+nav {
+    display: inline;
+
+}
+
+.ulheader {
+    display: inline-flex;
+    list-style: none;
+    text-align: center;
+}
+
+.title {
+    font-size: 24px;
+    padding-top: 19px;
+    color: #202020;
+
+}
+
+.time {
+    width: 94px;
+    height: 14px;
+    font-size: 12px;
+    color: #979797;
+
+
+}
+
+.elbrus {
+    width: 580px;
+    height: 220px;
+    
+}
+
+.elbrus2 {
+    width: 580px;
+    height: 220px;
+   
+}
+
+.elbrus3 {
+    width: 580px;
+    height: 220px;
+  
+}
+
+
+
+.foot {
+    line-height: 15px;
+    font-size: 13px;
+    padding: 13px 0 12px 0;
+    margin: 0;
+}
