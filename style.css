@@ -55,7 +55,7 @@ h4 {
 
 article:nth-child(odd) {
     width: 580px;
-    background: lightblue;
+    background: #C8DDF0;
     margin-bottom: 52px;
     border: 3px solid #e5e5e5;
     border-radius: 5px;
@@ -69,9 +69,9 @@ article:nth-child(2n) {
     border-radius: 5px;
     
 }
-.content {
+/* .content {
     opacity: 0.6;
-}
+} */
 p {
     font-size: 18px;
     color: #000000;
