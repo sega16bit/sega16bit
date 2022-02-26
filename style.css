@@ -55,40 +55,41 @@ h4 {
 
 article:nth-child(odd) {
     width: 580px;
-    background: #C8DDF0;
+    background: rgba(200, 221, 240, 0.6);
     margin-bottom: 52px;
     border: 3px solid #e5e5e5;
     border-radius: 5px;
+    overflow: hidden;
 }
 
 article:nth-child(2n) {
     width: 580px;
-    background: #E5E5E5;
+    background: rgba(229, 229, 229, 0.6);
     margin-bottom: 52px;
     border: 3px solid #C8DDF0;
     border-radius: 5px;
+    overflow: hidden;
     
 }
-/* .content {
-    opacity: 0.6;
-} */
+
 p {
     font-size: 18px;
     color: #000000;
     line-height: 21px;
-
     margin-top: 12px;
     margin-bottom: 18px;
 }
-p + a:hover {
+p + .link:hover {
     text-decoration: none;
      color: red;
 }
 
-a {
-   font-size: 18px; 
+.link {
+   font-size: 18px;
+  }
+.link_cont {
+    margin-bottom: 24px;
 }
-
 footer {
     text-align: center;
     background-color: #C3D8FF;
@@ -138,10 +139,11 @@ nav {
     height: 14px;
     font-size: 12px;
     color: #979797;
-
-
 }
 
+.content {
+    margin-left: 24px;
+}
 .elbrus {
     width: 580px;
     height: 220px;
@@ -159,7 +161,6 @@ nav {
     height: 220px;
   
 }
-
 
 
 .foot {
